@@ -1,5 +1,4 @@
--- create the table unique_id on  MySQL server
--- creates the table
+-- create the table users on  MySQL server
 CREATE TABLE IF NOT EXISTS users (
 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
 	email VARCHAR(256) NOT NULL UNIQUE, 
